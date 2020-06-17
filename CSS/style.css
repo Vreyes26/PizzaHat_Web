@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html{
+    background: url(../img/fondo.png) no-repeat center top fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.register-box{
+    width: 50vh;
+    height: 100vh;
+    background: #000;
+    color: #fff;
+    top: 10%;
+    left: 40%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.register-box .pizzaLogo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.register-box h1{
+    padding: 0;
+    margin: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.register-box label{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.register-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.register-box input{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
