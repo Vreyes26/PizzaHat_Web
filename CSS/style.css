@@ -11,12 +11,12 @@ html{
 }
 
 .register-box{
-    width: 50vh;
-    height: 100vh;
+    width: 350px;
+    height: 550px;
+    border-radius: 10px;
     background: #000;
     color: #fff;
-    top: 10%;
-    left: 40%;
+    margin: 5%;
     position: absolute;
     box-sizing: border-box;
     padding: 70px 30px;
@@ -32,9 +32,9 @@ html{
 
 .register-box h1{
     padding: 0;
-    margin: 0 0 20px;
+    margin: 0 0 15px;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .register-box label{
@@ -46,10 +46,7 @@ html{
 
 .register-box input{
     width: 100%;
-    margin-bottom: 20px;
-}
-
-.register-box input{
+    margin-bottom: 10px;
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
