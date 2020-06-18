@@ -17,16 +17,16 @@ and open the template in the editor.
             <form class="register">
                 <h1>Registrar cuenta</h1>
                 <label for="nombre">Nombre:</label>
-                <input type="text" name="user_nombre" placeholder="Ingrese su nombre" required/>
+                <input type="text" name="user_nombre" placeholder="Nombre" required/>
                 <label for="apellido">Apellido:</label>
-                <input type="text" name="user_apellido" placeholder="Ingrese su apellido" required/>
+                <input type="text" name="user_apellido" placeholder="Apellido" required/>
                 <label for="correo">Correo:</label>
-                <input type="email" name="user_email" placeholder="Ingrese su correo" required/>
+                <input type="email" name="user_email" placeholder="Correo" required/>
                 <label for="contraseña">Contraseña:</label>
-                <input type="password" name="user_password" placeholder="Ingrese su contraseña" required/>
+                <input type="password" name="user_password" placeholder="Contraseña" required/>
                 <label for="reContraseña">Repetir contraseña:</label>
-                <input type="password" name="user_password2" placeholder="Repita su contraseña" required/>
-                <input type="submit" value="Registrate"/>
+                <input type="password" name="user_password2" placeholder="Contraseña" required/>
+                <input class="regButton" type="submit" value="Registrate"/>
 
                 <label>¿ya tienes tu cuenta?</label><a href="login.php">Iniciar sesion</a>
             </form>
