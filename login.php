@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>title</title>
+        <link href="CSS/style.css" rel="stylesheet" type="text/css"/>
+        <link href="img/icon.ico" rel="icon" type="icon/ico"/>
+    </head>
+    <body>
+
+    </body>
+</html>
+
 <?php
 
 /* 
@@ -5,4 +18,4 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+?>
