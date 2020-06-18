@@ -26,9 +26,10 @@ and open the template in the editor.
                 <input type="password" name="user_password" placeholder="Ingrese su contraseña" required/>
                 <label for="reContraseña">Repetir contraseña:</label>
                 <input type="password" name="user_password2" placeholder="Repita su contraseña" required/>
-                <input type="submit" value="Registrate"/>
+                <input type="submit" value="Registrarse"/>
 
-                <label>¿ya tienes tu cuenta?</label><a href="login.php">Iniciar sesion</a>
+                <label>¿ya tienes tu cuenta?</label>
+                <a href="login.php">Iniciar sesion</a>
             </form>
         </div>
         
