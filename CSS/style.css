@@ -16,7 +16,7 @@ html{
     border-radius: 10px;
     background: #000;
     color: #fff;
-    top: 10%;
+    top: 60px;
     left: calc(50% - 175px);
     position: absolute;
     box-sizing: border-box;
@@ -55,4 +55,21 @@ html{
     height: 40px;
     color: #fff;
     font-size: 16px;
+}
+
+.register-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #cc0000;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.register-box a{
+    color: #ff3333;
+}
+
+.register-box a:hover{
+    color: #ff0000;
 }
