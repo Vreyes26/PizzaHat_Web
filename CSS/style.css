@@ -16,7 +16,8 @@ html{
     border-radius: 10px;
     background: #000;
     color: #fff;
-    margin: 5%;
+    top: 10%;
+    left: calc(50% - 175px);
     position: absolute;
     box-sizing: border-box;
     padding: 70px 30px;
