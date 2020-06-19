@@ -12,26 +12,12 @@ and open the template in the editor.
         <link href="img/icon.ico" rel="icon" type="icon/ico"/>
     </head>
     <body>
-        <div class="boxForm">
-            <img class="pizzaLogo" src="img/icon.png" alt="Logo PizzaHat"/>
-            <form action="data/register.php" method="POST">
-                <h1>Registrar cuenta</h1>
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="user_nombre" id="nombre" placeholder="Ingrese su nombre" required/>
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="user_apellido" id="apellido" placeholder="Ingrese su apellido" required/>
-                <label for="correo">Correo:</label>
-                <input type="email" name="user_email" id="correo" placeholder="Ingrese su correo" required/>
-                <label for="contraseña">Contraseña:</label>
-                <input type="password" name="user_password" id="contraseña" placeholder="Ingrese su contraseña" required/>
-                <input type="submit" value="Registrarse"/>
-
-                <label>¿ya tienes tu cuenta?</label>
-                <a href="login.php">Iniciar sesion</a>
-            </form>
+        <div class="divUser">
+            <a href="register.php">Registrate</a>
+            <a href="login.php">Iniciar sesíon</a>
         </div>
-        <?php
-        
-        ?>
+        <nav>
+            
+        </nav>
     </body>
 </html>
