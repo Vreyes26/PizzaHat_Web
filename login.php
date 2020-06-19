@@ -7,7 +7,10 @@
         <link href="img/icon.ico" rel="icon" type="icon/ico"/>
     </head>
     <body>
-
+        <div class="login">
+            <img class="pizzaLogo" src="img/icon.png" alt="Logo PizzaHat"/>
+            
+        </div>
     </body>
 </html>
 
