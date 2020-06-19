@@ -12,9 +12,9 @@ and open the template in the editor.
         <link href="img/icon.ico" rel="icon" type="icon/ico"/>
     </head>
     <body>
-        <div class="register-box">
+        <div class="boxForm">
             <img class="pizzaLogo" src="img/icon.png" alt="Logo PizzaHat"/>
-            <form action="data/register.php">
+            <form action="data/register.php" method="POST">
                 <h1>Registrar cuenta</h1>
                 <label for="nombre">Nombre:</label>
                 <input type="text" name="user_nombre" id="nombre" placeholder="Ingrese su nombre" required/>
