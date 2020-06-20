@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -5,7 +8,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
+    <head lang="es">
         <meta charset="UTF-8">
         <title>PizzaHut</title>
         <link href="CSS/style.css" rel="stylesheet" type="text/css"/>
@@ -20,6 +23,8 @@ and open the template in the editor.
                 <input type="text" name="user_nombre" id="nombre" placeholder="Ingrese su nombre" required/>
                 <label for="apellido">Apellido:</label>
                 <input type="text" name="user_apellido" id="apellido" placeholder="Ingrese su apellido" required/>
+                <label for="alias">Apodo:</label>
+                <input type="text" name="user_alias" id="alias" placeholder="Nickname" required/>
                 <label for="correo">Correo:</label>
                 <input type="email" name="user_email" id="correo" placeholder="Ingrese su correo" required/>
                 <label for="contraseña">Contraseña:</label>

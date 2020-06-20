@@ -1,9 +1,10 @@
 <?php
     session_start();
+    
 ?>
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
     <head lang="es">
         <meta charset="UTF-8">
         <title>Login</title>
@@ -12,14 +13,14 @@
     </head>
     <body>
         <div class="loginBox">
-            <img class="pizzaLogo" src="img/icon.png" alt="Logo PizzaHat"/>
-            <form action="data/loginUser.php" method="POST">
+            <a href="index.php"><img class="pizzaLogo" src="img/icon.png" alt="Logo PizzaHat"/></a>
+            <form action="controlador/loginControlador.php" method="POST">
                 <h1>Ingresar cuenta</h1>
-                <label for="user">Correo:</label>
-                <input type="text" name="user" id="user" placeholder="e-mail" required/>
+                <label for="user">Usuario:</label>
+                <input type="text" name="username" id="user" placeholder="Usuario" required/>
                 <label for="password">Contraseña:</label>
                 <input type="password" name="password" id="password" placeholder="Contraseña" required>
-                <input type="submit" value="Iniciar sesion" name="buttonSesion"/>
+                <input type="submit" value="Log in" name="buttonSesion"/>
                 <label>¿No tienes cuenta?</label>
                 <a href="register.php">Crear cuenta</a>
             </form>
