@@ -10,7 +10,9 @@ html{
     height: 100vh;
 }
 
-/*INDEX*/
+/*
+    INDEX
+*/
 .container{
     width: 80%;
     margin: 0 auto;
@@ -59,14 +61,25 @@ nav{
 }
 
 .bannerPizza{
-    width: 60%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: #000;
 }
 
-/*REGISTER*/
+.fondoMenu{
+    width: 70%;
+    height: 1500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+/*
+    REGISTER
+*/
 .boxForm{
     width: 350px;
     height: 530px;
@@ -131,7 +144,9 @@ nav{
     color: #ff0000;
 }
 
-/*LOGIN*/
+/*
+    LOGIN
+*/
 .loginBox{
     width: 350px;
     height: 400px;

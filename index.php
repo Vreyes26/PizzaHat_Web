@@ -23,6 +23,9 @@ and open the template in the editor.
             
         </div>
     </header>
-        <img src="img/PizzaPeperoniBanner.jpg" class="bannerPizza" alt="imagen de pizza"/>
+        
+        <div class="fondoMenu">
+            <img src="img/PizzaPeperoniBanner.jpg" class="bannerPizza" alt="imagen de pizza"/>
+        </div>
     </body>
 </html>
