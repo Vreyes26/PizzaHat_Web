@@ -12,12 +12,17 @@ and open the template in the editor.
         <link href="img/icon.ico" rel="icon" type="icon/ico"/>
     </head>
     <body>
-        <div class="divUser">
-            <a href="register.php">Registrate</a>
-            <a href="login.php">Iniciar sesíon</a>
-        </div>
-        <nav>
+        
+    <header>
+        <div class="container">
+            <img src="img/icon.png" class="logoPizzaHat" alt="logo pizzaHat"/>
             
-        </nav>
+            <nav>
+            <a href="login.php">Iniciar sesion</a>
+            </nav>
+            
+        </div>
+    </header>
+        <img src="img/PizzaPeperoniBanner.jpg" class="bannerPizza" alt="imagen de pizza"/>
     </body>
 </html>

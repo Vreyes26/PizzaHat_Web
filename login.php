@@ -17,6 +17,8 @@
                 <label for="password">Contraseña:</label>
                 <input type="password" name="password" id="password" placeholder="Contraseña" required>
                 <input type="submit" value="Iniciar sesion" name="buttonSesion"/>
+                <label>¿No tienes cuenta?</label>
+                <a href="register.php">Crear cuenta</a>
             </form>
         </div>
     </body>
