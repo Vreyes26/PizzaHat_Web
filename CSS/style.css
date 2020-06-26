@@ -14,7 +14,7 @@ html{
     INDEX
 */
 .container{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -69,7 +69,7 @@ nav{
 }
 
 .fondoMenu{
-    width: 70%;
+    width: 80%;
     height: 1500px;
     display: block;
     margin-left: auto;

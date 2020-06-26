@@ -7,8 +7,8 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
-    <head lang="es">
+<html lang="es">
+    <head>
         <meta charset="UTF-8">
         <title>PizzaHut</title>
         <link href="CSS/style.css" rel="stylesheet" type="text/css"/>
@@ -20,15 +20,15 @@ and open the template in the editor.
             <form action="data/register.php" autocomplete="off" method="POST">
                 <h1>Registrar cuenta</h1>
                 <label for="nombre">Nombre:</label>
-                <input type="text" name="user_nombre" id="nombre" placeholder="Ingrese su nombre" required/>
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="user_apellido" id="apellido" placeholder="Ingrese su apellido" required/>
-                <label for="alias">Apodo:</label>
-                <input type="text" name="user_alias" id="alias" placeholder="Nickname" required/>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required/>
+                <label for="apellidos">Apellido:</label>
+                <input type="text" name="apellido" id="apellidos" placeholder="Ingrese su apellido" required/>
+                <label for="alias">Nombre de usuario:</label>
+                <input type="text" name="user" id="alias" maxlength="12" placeholder="Ingrese nombre de usuario" required/>
                 <label for="correo">Correo:</label>
-                <input type="email" name="user_email" id="correo" placeholder="Ingrese su correo" required/>
+                <input type="email" name="correo" id="correo" placeholder="Ingrese su correo" required/>
                 <label for="contraseña">Contraseña:</label>
-                <input type="password" name="user_password" id="contraseña" placeholder="Ingrese su contraseña" required/>
+                <input type="password" name="clave" id="contraseña" placeholder="Ingrese su contraseña" required/>
                 <input type="submit" value="Registrarse"/>
 
                 <label>¿ya tienes tu cuenta?</label>

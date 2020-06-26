@@ -44,7 +44,7 @@ and open the template in the editor.
         </header>
         
         <div class="fondoMenu">
-            <img src="img/PizzaBanner.jpg" class="bannerPizza" alt="imagen de pizza"/>
+            <img src="img/bannerPizza.jpg" class="bannerPizza" alt="imagen de pizza"/>
             <img src="img/pizza-espanola.jpg" alt="Pizza española imagen"/>
         </div>
     </body>
