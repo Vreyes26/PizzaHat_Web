@@ -5,6 +5,7 @@
 }
 
 html{
+    background-color: red;
     background: url(../img/fondo.png) no-repeat center top fixed;
     background-size: cover;
     height: 100vh;

@@ -17,18 +17,18 @@ and open the template in the editor.
     <body>
         <div class="boxForm">
             <img class="pizzaLogo" src="img/icon.png" alt="Logo PizzaHat"/>
-            <form action="data/register.php" autocomplete="off" method="POST">
+            <form action="controlador/registrarUsuario.php" autocomplete="off" method="POST">
                 <h1>Registrar cuenta</h1>
                 <label for="nombre">Nombre:</label>
                 <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required/>
-                <label for="apellidos">Apellido:</label>
-                <input type="text" name="apellido" id="apellidos" placeholder="Ingrese su apellido" required/>
-                <label for="alias">Nombre de usuario:</label>
-                <input type="text" name="user" id="alias" maxlength="12" placeholder="Ingrese nombre de usuario" required/>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required/>
+                <label for="user">Usuario:</label>
+                <input type="text" name="user" id="user" maxlength="12" placeholder="Ingrese nombre de usuario" required/>
                 <label for="correo">Correo:</label>
                 <input type="email" name="correo" id="correo" placeholder="Ingrese su correo" required/>
-                <label for="contraseña">Contraseña:</label>
-                <input type="password" name="clave" id="contraseña" placeholder="Ingrese su contraseña" required/>
+                <label for="clave">Contraseña:</label>
+                <input type="password" name="clave" id="clave" placeholder="Ingrese su contraseña" required/>
                 <input type="submit" value="Registrarse"/>
 
                 <label>¿ya tienes tu cuenta?</label>
